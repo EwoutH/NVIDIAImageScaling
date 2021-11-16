@@ -15,5 +15,5 @@ jobs:
       - run: cd samples && mkdir build
       - run: cmake .. -DCMAKE_BUILD_TYPE=Release
         working-directory: samples/build
-      - run: cmake --build ../
+      - run: cmake --build .
         working-directory: samples/build
